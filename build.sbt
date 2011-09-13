@@ -16,7 +16,7 @@ jettyScanDirs := Nil
 resolvers += "databinder.net repository" at "http://databinder.net/repo"
 
 libraryDependencies ++= {
-  val liftVersion = "2.4-M4" 
+  val liftVersion = "2.4-M3" 
   Seq(
     "net.liftweb" %% "lift-webkit" % liftVersion % "compile->default",
     "net.databinder" %% "dispatch-http" % "0.8.3",
